@@ -127,7 +127,7 @@ export default function SimpleReturnLookup() {
 	}
 
 	return (
-		<div className='min-h-screen bg-slate-50 p-4 max-w-screen-md mx-auto'>
+		<div className='min-h-screen text-black bg-slate-50 p-4 max-w-screen-md mx-auto'>
 			<header className='mb-4'>
 				<h1 className='text-2xl font-semibold'>Return Lookup</h1>
 				<p className='text-sm text-muted-foreground'>
@@ -169,7 +169,7 @@ export default function SimpleReturnLookup() {
 			</Card>
 
 			{customerReturn && (
-				<Card className='mb-6'>
+				<Card className='mb-6 text-black'>
 					<CardHeader>
 						<div className='flex items-center justify-between'>
 							<div>
